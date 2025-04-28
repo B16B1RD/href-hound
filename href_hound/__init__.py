@@ -1,3 +1,3 @@
 """
-LinkChecker パッケージ
+href-hound パッケージ
 """

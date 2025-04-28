@@ -60,8 +60,8 @@ def parse_args():
     )
     parser.add_argument(
         "--user-agent",
-        default="LinkChecker/1.0",
-        help="User-Agent文字列 (default: LinkChecker/1.0)"
+        default="href-hound/1.0",
+        help="User-Agent文字列 (default: href-hound/1.0)"
     )
     parser.add_argument(
         "--timeout",

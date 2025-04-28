@@ -90,7 +90,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.cb_res = QtWidgets.QCheckBox("リソースリンクもチェック (img, link, script)")
         form.addRow("", self.cb_res)
         # User-Agent
-        self.le_agent = QtWidgets.QLineEdit("LinkChecker/1.0")
+        self.le_agent = QtWidgets.QLineEdit("href-hound/1.0")
         form.addRow("User-Agent:", self.le_agent)
         # タイムアウト
         self.sp_timeout = QtWidgets.QDoubleSpinBox()

@@ -1,8 +1,8 @@
-# LinkChecker（リンクチェッカー）
+# href-hound（リンクチェッカー）
 
 本プロジェクトは Vibe Coding（OpenAI Codex）を使用して作成されました。
 
-LinkChecker は、起点 URL から静的 HTML ページをクロールし、リンク切れを検出する Python 製ツールです。コマンドラインインターフェース（CLI）と PyQt5 ベースのグラフィカルユーザインタフェース（GUI）を備え、共通のコアロジックを使用しています。
+href-hound は、起点 URL から静的 HTML ページをクロールし、リンク切れを検出する Python 製ツールです。コマンドラインインターフェース（CLI）と PyQt5 ベースのグラフィカルユーザインタフェース（GUI）を備え、共通のコアロジックを使用しています。
 
 ## 機能
 
@@ -50,7 +50,7 @@ python -m href_hound.cli <start_url> [オプション]
 - `--exclude PATTERN`: URL に PATTERN を含む場合は除外（部分文字列マッチ、複数指定可）
 - `--include PATTERN`: URL に PATTERN を含む場合のみ対象（部分文字列マッチ、複数指定可）
 - `--check-resources`: リソースリンク（`img`, `link`, `script`）もチェック
-- `--user-agent STRING`: User-Agent ヘッダ（デフォルト: `LinkChecker/1.0`）
+    - `--user-agent STRING`: User-Agent ヘッダ（デフォルト: `href-hound/1.0`）
 - `--timeout SECONDS`: タイムアウト秒数（デフォルト: `10.0`）
 - `--concurrency N`: 同時リクエスト数（デフォルト: `5`）
 - `--delay SECONDS`: リクエスト間隔（秒）（デフォルト: `0.0`）
@@ -95,4 +95,4 @@ GUI 上で:
   ```
 
 ---
-LinkChecker で効率的にリンク切れチェックを行いましょう!
+href-hound で効率的にリンク切れチェックを行いましょう!

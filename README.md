@@ -1,8 +1,8 @@
-# LinkChecker
+# href-hound
 
 This project was created using Vibe Coding (OpenAI Codex).
 
-LinkChecker is a Python-based tool for crawling static HTML pages starting from a seed URL and checking for broken links. It offers both a Command Line Interface (CLI) and a Graphical User Interface (GUI) built with PyQt5, using a shared core logic.
+href-hound is a Python-based tool for crawling static HTML pages starting from a seed URL and checking for broken links. It offers both a Command Line Interface (CLI) and a Graphical User Interface (GUI) built with PyQt5, using a shared core logic.
 
 ## Features
 
@@ -50,7 +50,7 @@ Common options:
 - `--exclude PATTERN`: exclude URLs containing `PATTERN` (substring match, repeatable)
 - `--include PATTERN`: include only URLs containing `PATTERN` (repeatable)
 - `--check-resources`: also check resource links (`img`, `link`, `script`)
-- `--user-agent STRING`: custom User-Agent (default: `LinkChecker/1.0`)
+  - `--user-agent STRING`: custom User-Agent (default: `href-hound/1.0`)
 - `--timeout SECONDS`: request timeout (default: `10.0`)
 - `--concurrency N`: max concurrent requests (default: `5`)
 - `--delay SECONDS`: delay between requests (default: `0.0`)
@@ -95,4 +95,4 @@ The generated HTML report groups broken links by their source page and lists the
   ```
 
 ---
-Enjoy efficient link checking with LinkChecker!
+Enjoy efficient link checking with href-hound!

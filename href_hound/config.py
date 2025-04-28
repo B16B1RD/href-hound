@@ -21,7 +21,7 @@ class Config:
     # リソースリンクもチェック
     check_resources: bool = False
     # User-Agent文字列
-    user_agent: str = "LinkChecker/1.0"
+    user_agent: str = "href-hound/1.0"
     # タイムアウト（秒）
     timeout: float = 10.0
     # 同時リクエスト数
